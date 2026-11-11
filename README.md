@@ -28,6 +28,15 @@ mvn archetype:generate \
 -DarchetypeVersion=1.5 \
 -DinteractiveMode=false
 
+You’re in the middle of mvn archetype:generate. Answer the prompts like this:
+
+Prompt	Type
+groupId	com.devops
+artifactId	devops-learning (any name you like)
+version	press Enter for 1.0-SNAPSHOT
+package	press Enter, it defaults to com.devops
+Y: : confirmation	press Enter or type Y
+
 
 Move into the project:
 cd devops-learning
